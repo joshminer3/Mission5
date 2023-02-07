@@ -1,0 +1,25 @@
+﻿var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllersWithViews();
+
+var app = builder.Build();
+
+
+app.UseStaticFiles();
+
+app.UseRouting();
+
+IApplicationBuilder applicationBuilder = app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+
+        name: "default",
+        pattern: $"{{controller=Blah}}/{{action=Index}}/{{id?}}"
+
+        );
+});
+
+
+
+app.Run();
+

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="images/icons8-walrus-66.png">
+    <title>@ViewData["Title"]</title>
+
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="CSS/StyleSheet1.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <nav>
+        <a asp-controller="Blah" asp-action="Index">Home</a>
+        <a asp-controller="Blah" asp-action="GradeCalc">Calculate Grade</a>
+    </nav>
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+    <script src="JQuery/jquery-3.6.3.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+

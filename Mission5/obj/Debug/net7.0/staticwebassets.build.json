@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "cMkaJsAI17lO08l/Vb7Hdoid6sVnqpOMjDh7769TCH4=",
+  "Source": "Mission5",
+  "BasePath": "_content/Mission5",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Mission5/wwwroot",
+      "Source": "Mission5",
+      "ContentRoot": "/Users/joshuaminer/Documents/Mission5/Mission5/wwwroot/",
+      "BasePath": "_content/Mission5",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

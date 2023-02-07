@@ -1,0 +1,135 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\images\icons8-walrus-66.png" />
+    <Content Remove="wwwroot\images\IMG_7640.jpeg" />
+    <Content Remove="wwwroot\images\" />
+    <Content Remove="wwwroot\CSS\StyleSheet1.css" />
+    <Content Remove="wwwroot\CSS\" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-grid.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-grid.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-grid.min.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-grid.rtl.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-reboot.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-reboot.rtl.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-utilities.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-utilities.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-utilities.min.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-utilities.min.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-utilities.rtl.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap.min.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap.rtl.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap.rtl.css.map" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap.rtl.min.css" />
+    <Content Remove="wwwroot\Bootstrap\css\bootstrap.rtl.min.css.map" />
+    <Content Remove="wwwroot\Bootstrap\js\bootstrap.bundle.js" />
+    <Content Remove="wwwroot\Bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Remove="wwwroot\Bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Remove="wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Remove="wwwroot\Bootstrap\js\bootstrap.esm.js" />
+    <Content Remove="wwwroot\Bootstrap\js\bootstrap.esm.js.map" />
+    <Content Remove="wwwroot\Bootstrap\js\bootstrap.esm.min.js" />
+    <Content Remove="wwwroot\Bootstrap\js\bootstrap.esm.min.js.map" />
+    <Content Remove="wwwroot\Bootstrap\js\bootstrap.js" />
+    <Content Remove="wwwroot\Bootstrap\js\bootstrap.js.map" />
+    <Content Remove="wwwroot\Bootstrap\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\Bootstrap\js\bootstrap.min.js.map" />
+    <Content Remove="wwwroot\Bootstrap\" />
+    <Content Remove="wwwroot\JQuery\jquery-3.6.3.min.js" />
+    <Content Remove="wwwroot\JQuery\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\CSS\" />
+    <Folder Include="wwwroot\Bootstrap\" />
+    <Folder Include="wwwroot\JQuery\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\Blah\" />
+    <Folder Include="Models\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\Shared\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\" />
+    <None Remove="Views\Blah\" />
+    <None Remove="Models\" />
+    <None Remove="Controllers\" />
+    <None Remove="Views\Shared\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\images\icons8-walrus-66.png" />
+    <None Include="wwwroot\images\IMG_7640.jpeg" />
+    <None Include="wwwroot\CSS\StyleSheet1.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-grid.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-grid.min.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-grid.rtl.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-reboot.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-reboot.rtl.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-utilities.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-utilities.min.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-utilities.rtl.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap.rtl.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap.rtl.min.css" />
+    <None Include="wwwroot\Bootstrap\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\Bootstrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\Bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\Bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\Bootstrap\js\bootstrap.esm.js" />
+    <None Include="wwwroot\Bootstrap\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\Bootstrap\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\Bootstrap\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\Bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\Bootstrap\js\bootstrap.js.map" />
+    <None Include="wwwroot\Bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\Bootstrap\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\JQuery\jquery-3.6.3.min.js" />
+  </ItemGroup>
+</Project>
